@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer /Footer";
+import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import Bingo from "./pages/Bingo/Bingo";
 import Addtobag from "./pages/Add-to-bag/Add-to-bag";
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Order />
+      
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home} />

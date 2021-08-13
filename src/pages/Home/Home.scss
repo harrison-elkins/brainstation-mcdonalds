@@ -1,0 +1,51 @@
+.page {
+  width: 100vw;
+}
+.hero {
+  background-image: url("../../assets/header-back.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  &__sub {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 8px;
+  }
+  &__head {
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 8px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+  &__btn {
+    width: 179px;
+    height: 42px;
+    background-color: #ba1f25;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+}
+.disclaimer-text {
+  font-size: 10px;
+  line-height: 12px;
+  color: #666666;
+}

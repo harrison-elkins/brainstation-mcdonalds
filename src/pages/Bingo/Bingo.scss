@@ -1,0 +1,75 @@
+.bingo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__head {
+    font-size: 20px;
+    padding-top: 16px;
+  }
+  &__title {
+    font-size: 24px;
+    line-height: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+}
+
+.bingo-card {
+  width: 335px;
+  height: 400px;
+  flex-grow: 0;
+  margin: 20px 20px 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffbb0b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &__item {
+    width: 90px;
+    height: 90px;
+    flex-grow: 0;
+    margin: 5px;
+    padding: 5px 0 9.5px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 335px;
+}
+
+.offer-links {
+  padding-top: 8px;
+  text-decoration: underline;
+}
+
+.food-image {
+  height: 70px;
+  width: 70px;
+}
+
+.bingo-tiles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.play-card {
+  width: 335px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 20px 20px 11px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #ffefdc;
+  &__text {
+    text-align: left;
+  }
+}

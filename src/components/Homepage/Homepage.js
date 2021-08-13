@@ -29,9 +29,6 @@ class Homepage extends React.Component {
         <h2>Scan and Earn</h2>
         <div>Rewards</div>
       </section>
-      <footer>
-        <navbar></navbar>
-      </footer>
     </>;
   }
 }

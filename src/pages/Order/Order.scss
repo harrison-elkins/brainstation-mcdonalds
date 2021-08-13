@@ -1,0 +1,148 @@
+.order {
+  display: flex;
+  align-items: center;
+  margin-left: 21px;
+
+  &__exit {
+    width: 24px;
+    height: 24px;
+    margin-right: 77px;
+  }
+  &__title {
+    font-size: 20px;
+  }
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  background-color: #fff6eb;
+
+  &__img {
+    width: 25px;
+    height: 30px;
+    margin: 20px 10px 20px 40px;
+  }
+  &__info {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 66px;
+    &:after {
+      content: "2095 West 41st Ave";
+      font-weight: 400;
+    }
+  }
+  &__edit {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+  }
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  &__qty {
+    margin-right: 170px;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  &__button {
+    background-color: transparent;
+    border: none;
+    width: 39px;
+    height: 10px;
+  }
+}
+
+.purchase {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 21px;
+
+  &__title {
+    text-align: left;
+    flex-basis: 100%;
+    font-size: 18px;
+  }
+  &__subtotal {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    height: 10px;
+
+    &--text {
+      height: 10px;
+      margin: 0;
+      font-weight: bold;
+    }
+  }
+  &__tax {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    height: 10px;
+    margin-bottom: 9px;
+  }
+  &__total {
+    margin-top: 20px;
+    border-top: 1px solid #afafaf;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+}
+
+.payment {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 21px;
+  &__title {
+    flex-basis: 100%;
+    text-align: left;
+    font-size: 14px;
+    height: 20px;
+    margin: 0;
+  }
+  &__applepay {
+    border: none;
+    width: 90px;
+    margin: 20px 11px 10px 8px;
+    padding: 12px 26px 11.8px 27px;
+    border-radius: 6.2px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    &:hover {
+      background-color: #ba1f25;
+      fill: white;
+    }
+  }
+  &__creditcard {
+    border: none;
+    font-size: 12px;
+    width: 190px;
+    margin: 20px 11px 10px 8px;
+    padding: 12px 26px 11.8px 27px;
+    border-radius: 6.2px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+  }
+  &__disclaimer {
+    color: #909090;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0 0 0 30px;
+  }
+}
